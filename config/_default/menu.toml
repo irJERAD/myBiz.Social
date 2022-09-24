@@ -1,0 +1,66 @@
+# [menu]
+
+# Main menu
+
+[[main]]
+    name       = "Services"
+    identifier = "menu.services"
+    url        = "#services"
+    weight     = 1
+
+[[main]]
+    name       = "Testimonials"
+    identifier = "menu.testimonials"
+    url        = "#testimonials"
+    weight     = 2
+
+[[main]]
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/blog/"
+    weight     = 5
+
+[[main]]
+    name       = "FAQ"
+    identifier = "menu.faq"
+    url        = "/faq/"
+    weight     = 6
+
+[[main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = 7
+
+
+# Top bar social links menu
+
+[[topbar]]
+    weight = 1
+    name = "Phone"
+    url = "tel:+1 (760) 660-4706"
+    pre = "<i class='fas fa-2x fa-phone'></i>"
+
+[[topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "https://www.facebook.com/myBiz.social"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
+
+    [[topbar]]
+    weight = 4
+    name = "Instagram"
+    url = "https://instagram.com/myBiz.social"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
+
+[[topbar]]
+    weight = 4
+    name = "Twitter"
+    url = "https://twitter.com/myBiz_Social"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[topbar]]
+    weight = 5
+    name = "Email"
+    url = "mailto:mybizdotsocial@gmail.com"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
